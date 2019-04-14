@@ -11,9 +11,20 @@ h1{
   background-color:#7b7b7b;
   border:2px solid #5d5a54;
   text-align:center;
+  margin-top:30px;
+  width:100%;
+}
+#htext{
+  overflow:visible;
+  font-size:5em;
+  height:80px;
+  line-height:0.5em;
+} 
+span{
+  color:#5d5a54;
 }
 .meni{
-  text-align:right;
+ text-align:right;
   padding-right:5px;
 }
 ul{
@@ -21,7 +32,7 @@ ul{
 }
 li{
   
-  display:inline;
+  display:inline-block;
   list-style-type:none;
   margin:0;
   padding:0;
@@ -30,25 +41,28 @@ a{
   text-decoration:none;
   font-weight:;
   text-align:center;
-  margin:2px;
-  padding:2px;
+  margin:0;
+  padding:4px;
   background-color:#ffc200;
   color:#121210;
   border:1.5px solid #5d5a54;
   border-radius:5px;
+  width:100px;
+  
   
 }
 .wrap{
   position:relative;
-  background-color:#ffffd6;
+  background-color:#5d5a54;
   border-top:1px solid #5d5a54;
+  border-radius:5px;
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  grid-gap:1em;
+  grid-gap:0;
 }
 .wrap > div{
   
-  margin:0.8em;
+  margin:0.5em;
   padding:0.8em;
   background:#7b7b7b;
   border-radius:5px;
@@ -59,8 +73,8 @@ a{
 
 #footer{
   position:relative;
-  background-color:rgba(255,194,0,.28);
-  color:#7b7b7b;
+  background-color:#ffc200;
+  color:#121210;
   border:1px solid #5d5a54;
   text-align:center;
   width:100%;
