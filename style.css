@@ -12,22 +12,28 @@ h1{
   border:2px solid #5d5a54;
   text-align:center;
 }
+.meni{
+  text-align:right;
+  padding-right:5px;
+}
+ul{
+  margin-bottom:0;
+}
 li{
   
   display:inline;
   list-style-type:none;
-  margin:5px;
+  margin:0;
   padding:0;
-  
-  
 }
 a{
   text-decoration:none;
-  font-weight:bold;
+  font-weight:;
   text-align:center;
-  margin:5px,auto;
+  margin:2px;
+  padding:2px;
   background-color:#ffc200;
-  color:#5d5a54;
+  color:#121210;
   border:1.5px solid #5d5a54;
   border-radius:5px;
   
@@ -35,6 +41,7 @@ a{
 .wrap{
   position:relative;
   background-color:#ffffd6;
+  border-top:1px solid #5d5a54;
   display:grid;
   grid-template-columns:repeat(3,1fr);
   grid-gap:1em;
